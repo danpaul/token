@@ -10,12 +10,10 @@ var defaults = {
 schema.definition = function(table){
     table.integer('user').default(0).index(),
     table.string('token', 64).default('').index(),
-    // table.char('token', 64).default('').index(),
-    // table.character('token', 64).default('').index(),
     table.integer('expires').default(0)
 }
 
-// see ../index for options, knex is required
+// options: knex(required), tableName(optional)
 schema.init = function(options){
 
     options.knex.schema.hasTable(options.tableName)
