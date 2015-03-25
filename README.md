@@ -1,5 +1,5 @@
 ## About
-Token is an SQL ([Knex](http://knexjs.org)compatible) token manager with optional Redis backing using [node_redis](https://github.com/mranney/node_redis) client.
+Token is an SQL([Knex](http://knexjs.org) compatible) token manager with optional Redis backing using [node_redis](https://github.com/mranney/node_redis) client.
 
 ## Example
 
