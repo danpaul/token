@@ -108,3 +108,6 @@ async.waterfall([
 
 ## Options
 See "defaults" in ./index.js. These defaults can be overriden.
+
+## Todo
+Add cache expiration(http://redis.io/commands/expire) and confirm cache expiration works for hmset keys.
